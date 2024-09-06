@@ -101,13 +101,6 @@ Welcome to the Python EEG Signal Analyis Practice repository. This repository co
   - Visualize the simulated data and extracted features.
 - **Expected Output:** Simulated EEG data plot and feature summary.
 
-## How to Use
-1. Clone this repository:  
-   `git clone https://github.com/username/eeg-data-science-exercises.git`
-2. Install the required dependencies:  
-   `pip install -r requirements.txt`
-3. Run the exercises in your preferred IDE or via command line.
-
 ## Contact
 Feel free to reach out if you have any questions or need clarification on any of the exercises.
 
