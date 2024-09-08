@@ -32,12 +32,15 @@ Welcome to the Python EEG Signal Analyis Practice repository. This repository co
 - **Expected Output:** Power spectrum plot with prominent EEG frequency bands.
 
 ## Exercise 3: EEG Feature Extraction
-**Objective:** Extract basic EEG features such as mean, standard deviation, and peak-to-peak amplitude.
-- **Libraries:** `numpy`, `pandas`
+**Objective:**  Extract EEG-specific features relevant for data analysis, such as band power in EEG frequency bands (delta, theta, alpha, beta), signal variability, and complexity measures. 
+- **Libraries:** `numpy`, `scipy`, `pandas`, `matplotlib` 
 - **Tasks:**
-  - Calculate descriptive statistics for each EEG channel.
-  - Store features in a pandas DataFrame.
-- **Expected Output:** A table with extracted features for each EEG channel.
+  - Calculate descriptive statistics for each EEG channel, including mean, standard deviation, and peak-to-peak amplitude.
+  - Compute band power for standard EEG frequency bands: delta (0.5-4 Hz), theta (4-8 Hz), alpha (8-12 Hz), beta (12-30 Hz).
+  - Extract Hjorth parameters (activity, mobility, complexity) as features for each EEG channel.
+  - Store all extracted features in a pandas DataFrame.
+  - Visualize features (e.g., alpha band power) across all channels to observe patterns.
+- **Expected Output:** A table with the extracted features for each EEG channel. Each row should represent a channel, and columns should include descriptive statistics, band power features, and Hjorth parameters.
 
 ## Exercise 4: Signal Filtering with FIR Filters
 **Objective:** Filter an EEG signal using a FIR band-pass filter.
